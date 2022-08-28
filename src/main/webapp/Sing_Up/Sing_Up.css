@@ -1,0 +1,89 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    font-family: 'Cute Font', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;*/
+    background: #FFE6E6;
+    background-size: cover;
+    font-size: 22px;
+    color: #464646;
+}
+
+.sign-up-form {
+    margin: 2% 2%;
+    border: 1px solid #FF5675;
+    border-radius: 20px;
+    padding: 30px;
+    width: 480px;
+}
+
+.sign-up-form h1 {
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 13px;
+    font-size: 28px;
+    color: #FF5675;
+    text-align: center;
+}
+
+.line {
+    margin-bottom: 4%;
+}
+
+#message2 {
+    font-size: 16px;
+    color: red;
+    display: none;
+}
+
+#name, #pw, #repw, #id, #overlap, #mail, #domain, #mail-sel, .birth, .number {
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    /*background-color: transparent;*/
+    /*border-bottom: 1px solid #999;*/
+}
+
+input {font-size: 16px; outline: none; padding: 10px;}
+
+#name, #pw, #repw {width: 100%;}
+
+#id {width: 75%;}
+
+#overlap {
+    width: 23%;
+    background: #FF5675;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: "Cute Font", cursive;
+    font-size: 18px;
+}
+
+.birth {width: 29%; font-size: 16px; text-align: center;}
+
+#m, #f {margin-right: 10px;}
+
+#f {margin-left: 30px;}
+
+#mail, #domain {width: 31%; text-align: center;}
+
+#mail-sel {width: 30%; text-align: center; font-size: 13px; margin-left: 5px}
+
+.number {width: 30%; text-align: center;}
+
+#but {
+    width: 100%;
+    margin-top: 15px;
+    background: #FF5675;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    height: 45px;
+    font-family: "Cute Font", cursive;
+    font-size: 28px;
+}

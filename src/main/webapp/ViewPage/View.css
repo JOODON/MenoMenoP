@@ -1,0 +1,118 @@
+* {background:#FFE6E6;}
+
+body {
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    background: #FFE6E6;
+    margin-bottom: 10%;
+}
+
+.bodyy {
+    height: 75%;
+    display: flex;
+    border: 2px solid #FF5675;
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+a{
+    background-color: white;
+    text-decoration-line: none;
+    color: black;
+}
+
+a:hover {
+    color : #FF5675;
+}
+
+h1 {
+    color: #FF5675;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Cute Font', cursive;
+    border: 2px solid #FF5675;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+th, td {
+    border: 2px solid #FF5675;
+    border-collapse : collapse;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#num {
+    width: 70px;
+    font-family: 'Cute Font', cursive;
+    font-size: 30px;
+    background-color: #FFD2D2;
+    border: 2px solid #FF5675;
+    color: #FF5675;
+}
+
+#subject {
+    width: 350px;
+    font-family: 'Cute Font', cursive;
+    font-size: 30px;
+    background-color: #FFD2D2;
+    border: 2px solid #FF5675;
+    color: #FF5675;
+}
+
+#date {
+    width: 210px;
+    font-family: 'Cute Font', cursive;
+    font-size: 30px;
+    background-color: #FFD2D2;
+    border: 2px solid #FF5675;
+    color: #FF5675;
+}
+
+#view {
+    width: 20px;
+    font-family: 'Cute Font', cursive;
+    font-size: 30px;
+    background-color: #FFD2D2;
+    border: 2px solid #FF5675;
+    color: #FF5675;
+}
+
+td {
+    font-family: 'Cute Font', cursive;
+    font-size: 24px;
+    background-color: white;
+    border: 2px solid #FF5675;
+    text-align : center;
+}
+
+.go {display: flex;
+    justify-content: center;}
+button {
+    color: #FF5675;
+    width: 100px;
+    font-family: 'Cute Font', cursive;
+    font-size: 24px;
+    background-color: white;
+    border: 2px solid #FF5675;
+    text-align : center;
+    border-radius: 5px;
+}
+
+.gobt1{
+    margin-right: 15px;
+}
+.gobt2{
+    margin-left: 15px;
+}
+.gobt{
+    display: flex;
+    justify-content: space-between;
+}
