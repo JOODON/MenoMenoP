@@ -2,7 +2,7 @@
          pageEncoding="UTF-8"%>
 <%@ page import="java.io.PrintWriter" %>
 <%@ page import="BBS.BBSDAO" %>
-<%@ page import="BBS.BBS" %>
+<%@ page import="BBS.BBSDTO" %>
 <% request.setCharacterEncoding("UTF-8");%>
 
 
