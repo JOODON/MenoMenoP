@@ -2,15 +2,10 @@
          pageEncoding="UTF-8"%>
 <%@ page import="java.io.PrintWriter" %>
 <%@ page import="BBS.BBSDAO" %>
-<%@ page import="BBS.BBSDTO" %>
+<%@ page import="BBS.BBS" %>
 <% request.setCharacterEncoding("UTF-8");%>
 
 
-<html>
-<head>
-  <title>글 수정</title>
-</head>
-<body>
 <%
   String userID=null;
   if (session.getAttribute("UserID")!=null){
