@@ -256,5 +256,6 @@ public class BBSDAO {
         }
         return -1;//데이터 베이스 오류
     }
+
 }
 
