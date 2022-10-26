@@ -16,7 +16,9 @@ public class UserDAO {
     public int addUser(UserDTO userDTO){
         int insertCount=0;
         Connection conn=null;
+
         PreparedStatement ps=null;
+
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             conn = DriverManager.getConnection(dburl,dbID,dbpassword);
@@ -35,6 +37,7 @@ public class UserDAO {
         }catch (Exception e){
             e.printStackTrace();
         }
+
         finally {
             if(ps != null && conn != null){
                 try {

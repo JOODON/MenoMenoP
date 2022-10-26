@@ -254,7 +254,7 @@ public class BBSDAO {
         }catch (Exception e){
             e.printStackTrace();
         }
-        return -1;//데이터 베이스 오류
+        return -1;//데이터 베이스 오류 zz
     }
 
 }
