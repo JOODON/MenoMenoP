@@ -69,7 +69,6 @@
                 <div class="gobt3">
                     <%
                         if (pageNumber !=1){
-
                     %>
                     <button><a id="bwg" href="View.jsp?pageNumber=<%= pageNumber - 1 %>"> 이전</a></button>
                 </div>

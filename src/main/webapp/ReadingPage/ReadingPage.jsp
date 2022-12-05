@@ -24,6 +24,7 @@
 <body>
 <%
     String userID=null;
+
     if(session.getAttribute("UserID") != null ){
         userID=(String) session.getAttribute("UserID");
     }
