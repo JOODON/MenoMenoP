@@ -59,7 +59,7 @@
 <div class="body">
 <form action="UpdateAction.jsp?bbsID=<%=bbsID%>" method="post">
     <div id="writee">
-        <h1 id="space">글수정 양식</h1>
+        <h1 id="space">글수정양식</h1>
 
         <div id="writeee">
             <div id="title">
